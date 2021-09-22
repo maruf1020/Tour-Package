@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1024359868712",
+    "firebase_url": "https://tour-package-73db8.firebaseio.com",
+    "project_id": "tour-package-73db8",
+    "storage_bucket": "tour-package-73db8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024359868712:android:cd167dcffde6e172b9c81d",
+        "android_client_info": {
+          "package_name": "com.example.tourpackage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024359868712-octluf18lm2h2liu52ef2nup5n7bqcq2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tourpackage",
+            "certificate_hash": "3e84ac844832f68738cf25ed16753feeccffc235"
+          }
+        },
+        {
+          "client_id": "1024359868712-uee8esloh89uplbqkg6e3tp8060dvlbj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tourpackage",
+            "certificate_hash": "78b9454e7a56121876d79b31155019cab0fbe332"
+          }
+        },
+        {
+          "client_id": "1024359868712-3tbjsnsdh5dvs8t60eo2s1id76a94r5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0D_337395wGv_JyK5zR7uYpMnn56Dq24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024359868712-3tbjsnsdh5dvs8t60eo2s1id76a94r5p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

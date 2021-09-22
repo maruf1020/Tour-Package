@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Payment_Method"
+    android:background="@color/colorPrimary"
+    >
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Chose Your Payment Method"
+            android:textColor="@color/black"
+            android:textAlignment="center"
+            android:textSize="27sp"
+            android:layout_marginTop="35dp"
+            >
+
+        </TextView>
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp">
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="7dp"
+                    android:background="@color/lightgreen">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Accepted Cards"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textSize="20dp"
+                        android:layout_margin="5dp">
+
+                    </TextView>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="6.5dp">
+
+                        <ImageView
+                            android:layout_width="100sp"
+                            android:layout_height="100sp"
+                            android:layout_margin="15dp"
+                            android:src="@drawable/visacardlogo"
+                            android:scaleType="centerCrop">
+                        </ImageView>
+                        <ImageView
+                            android:layout_width="100sp"
+                            android:layout_height="100sp"
+                            android:layout_margin="15dp"
+                            android:src="@drawable/mastercard"
+                            android:scaleType="centerCrop">
+                        </ImageView>
+
+                        <ImageView
+                            android:id="@+id/btn_paypalPayment"
+                            android:layout_width="100sp"
+                            android:layout_height="100sp"
+                            android:layout_margin="15dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/paypallogo"
+                            android:onClick="gotoPaypalpayment"></ImageView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="7dp"
+                    android:background="@color/lightgreen">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Mobile Banking Channels"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textSize="20dp"
+                        android:layout_margin="5dp">
+
+                    </TextView>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="6.5dp">
+
+                        <ImageView
+                            android:layout_width="100sp"
+                            android:layout_height="100sp"
+                            android:layout_margin="15dp"
+                            android:src="@drawable/bikashlogo"
+                            android:scaleType="centerCrop"
+                            android:onClick="gotoBikashPayment"
+                            >
+                        </ImageView>
+                        <ImageView
+                            android:layout_width="100sp"
+                            android:layout_height="100sp"
+                            android:layout_margin="15dp"
+                            android:src="@drawable/rocketlogo"
+                            android:scaleType="centerCrop"
+                            android:onClick="gotoRocketPayment">
+                        </ImageView>
+                        <ImageView
+                            android:layout_width="100sp"
+                            android:layout_height="100sp"
+                            android:layout_margin="15dp"
+                            android:src="@drawable/ucashlogo"
+                            android:scaleType="centerCrop"
+                            android:onClick="gotoUcashPayment">
+                        </ImageView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="7dp"
+                    android:background="@color/lightgreen">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Internet/SMS Banking/Wallet"
+                        android:textColor="@color/white"
+                        android:textAlignment="center"
+                        android:textSize="20dp"
+                        android:layout_margin="5dp">
+
+                    </TextView>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_margin="6.5dp">
+
+                        <ImageView
+                            android:layout_width="100sp"
+                            android:layout_height="100sp"
+                            android:layout_margin="15dp"
+                            android:src="@drawable/citybanklogo"
+                            android:scaleType="centerCrop">
+                        </ImageView>
+                        <ImageView
+                            android:layout_width="100sp"
+                            android:layout_height="100sp"
+                            android:layout_margin="15dp"
+                            android:src="@drawable/ucbbanklogo"
+                            android:scaleType="centerCrop">
+                        </ImageView>
+                        <ImageView
+                            android:layout_width="100sp"
+                            android:layout_height="100sp"
+                            android:layout_margin="15dp"
+                            android:src="@drawable/asiabanklogo"
+                            android:scaleType="centerCrop">
+                        </ImageView>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="developed by CSECSE327group4NBM"
+                    android:textColor="@color/black"
+                    android:textAlignment="center"
+                    android:textSize="12sp"
+                    android:layout_marginTop="35dp">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bokking_Details"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="Wave of Saint martin"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="15dp"
+                android:background="@drawable/button_rounded_primary_light_color"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="191dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Starting Date:"
+                    android:textColor="@color/darkblue"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                   />
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="date"
+                    android:padding="10dp"
+                    android:text="08/04/2020"
+                    android:textAlignment="center"/>
+
+                <EditText
+                    android:id="@+id/editText3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="time"
+                    android:padding="10dp"
+                    android:text="09:30pm"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="15dp"
+                android:background="@drawable/button_rounded_primary_light_color"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="191dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Ending Date:"
+                    android:textColor="@color/darkblue"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    />
+
+                <EditText
+                    android:id="@+id/editText8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="date"
+                    android:padding="10dp"
+                    android:text="15/04/2020"
+                    android:textAlignment="center"/>
+
+                <EditText
+                    android:id="@+id/editText9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="time"
+                    android:padding="10dp"
+                    android:text="08:00am"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="15dp"
+                android:background="@drawable/button_rounded_primary_light_color"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Departure Place:"
+                    android:textColor="@color/darkblue"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="191dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Rajarbag Bus Stand, Dhaka"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="15dp"
+                android:background="@drawable/button_rounded_primary_light_color"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Destination:"
+                    android:textColor="@color/darkblue"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="191dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Cox's Bazar - Teknaf - Saint Martin"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    />
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="15dp"
+                android:background="@drawable/button_rounded_primary_light_color"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="68dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Arrival Place:"
+                    android:textColor="@color/darkblue"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="191dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Kolabagan, Dhaka"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal"
+                android:paddingTop="15dp"
+                android:background="@drawable/button_rounded_primary_light_color"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="23dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="User Info:"
+                    android:textColor="@color/darkblue"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="191dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="User: Md. Maruf Billah\nPhone:01675708783\nEmail:maruf.billah@northsouth.edu\nAddress:Moghbazar,Dhaka"
+                    android:textColor="@color/black"
+                    android:textSize="15dp"
+                    android:textAlignment="center"/>
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_confirm_booking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_rounded_primary_light_color"
+                android:text="Confirm"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:onClick="btn_payment_mathod"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

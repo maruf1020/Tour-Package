@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".BikashPayment"
+    >
+
+
+    <ProgressBar
+
+        android:id="@+id/bar_progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+
+        android:visibility="gone" />
+
+    <!--android:id="@id/progressBar"-->
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You have to pay: 3000 taka"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/trxID"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="TrxID (Transaction ID)"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/bikashNumber"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint=" Agent Number / bKash Number"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/contractNumber"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint=" Contact Number (Optional)"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/furtherInfo"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:ems="10"
+            android:hint=" Further Info (Optional)"
+            android:inputType="text"
+            android:textAlignment="gravity"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_rounded"
+        android:text="Payment"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:onClick="gotoHomepage"/>
+
+
+</LinearLayout>

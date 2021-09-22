@@ -1,0 +1,11 @@
+#You must have to install nodejs
+#You also have to install mangodb
+
+
+command:
+1) for finding if address : in cmd type... ipconfig
+2) for check mongodb status : in cmd type... mongod
+3)for installing nmp:   in cmd type... npm install
+3) After completing all the step, open cam and type "FILW LOCATION\node app.js"
+
+youtube help: https://www.youtube.com/watch?v=ycja50TzjoU&t=1207s

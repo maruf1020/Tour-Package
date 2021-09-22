@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+
+<!--    <view class="androidx.appcompat.app.AlertController$RecycleListView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/recyclerView"-->
+<!--        android:scrollbars="vertical"-->
+<!--        >-->
+
+
+<!--    </view>-->
+
+
+<!--    <android.support.v7.wedget.RecyclerView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/recyclerView"-->
+<!--        android:scrollbars="vertical">-->
+
+<!--    </android.support.v7.wedget.RecyclerView>-->
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:visibility="visible"-->
+<!--                >-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/btn_login"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_margin="5dp"-->
+<!--                    android:background="@drawable/button_rounded"-->
+<!--                    android:text="login"-->
+<!--                    android:textColor="#ffffff"-->
+<!--                    android:textSize="22sp"-->
+<!--                    android:onClick="btn_LoginForm" />-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/btn_Signup"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_margin="5dp"-->
+<!--                    android:background="@drawable/button_rounded"-->
+<!--                    android:text="Signup"-->
+<!--                    android:textColor="#ffffff"-->
+<!--                    android:textSize="22sp"-->
+<!--                    android:onClick="btn_signupForm1"-->
+<!--                    />-->
+
+
+<!--            </LinearLayout>-->
+
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerView"
+        android:scrollbars="vertical">
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+
+
+    <com.luseen.spacenavigation.SpaceNavigationView
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        app:active_item_color="@color/black"
+        app:centre_button_color="@color/colorPrimary"
+        app:centre_button_icon="@drawable/ic_home"
+        app:inactive_item_color="@color/blue"
+        app:space_background_color="@color/lightgreen"
+        app:space_item_icon_only_size="@dimen/space_item_icon_only_size"
+        app:space_item_icon_size="@dimen/space_item_icon_default_size"
+        app:space_item_text_size="@dimen/space_item_text_default_size" />
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="70dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginBottom="42dp"-->
+<!--        android:background="@color/colorPrimary"-->
+<!--        android:orientation="vertical"></LinearLayout>-->
+
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#004D40</color>
+    <color name="colorPrimaryDark">#004D40</color>
+    <color name="colorAccent">#00796B</color>
+<!--    <color name="colorAccent">#FF6C02</color>-->
+    <color name="background">#004D40</color>
+<!--    <color name="background">#EEEDEF</color>-->
+    <color name="black">#000000</color>
+    <color name="darkwhite">#F0F0F0</color>
+    <color name="darkwhitegreen">#FCFFFC</color>
+
+<!--    <color name="colorPrimary">#FFC107</color>-->
+<!--    <color name="colorPrimaryDark">#FFA000</color>-->
+    <color name="backgroundcolor">#fcfcfc</color>
+    <color name="lightgray">#ededed</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yello">#ffb300</color>
+    <color name="green">#00bfa5</color>
+<!--    <color name="colorAccent">#FF4081</color>-->
+    <color name="darkblue">#23283a</color>
+    <color name="testcolorblue">#152b38</color>
+    <color name="pink">#fe104d</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#03A9F4</color>
+
+    <color name="bg_gradient_start">#31244e</color>
+    <color name="bg_gradient_end">#6b394c</color>
+
+
+
+    <color name="lightgreen">#00796B</color>
+
+
+
+
+
+    <color name="colorPrimary1">#49BEFF</color>
+    <color name="colorPrimaryDark1">#65DCE5</color>
+    <color name="colorAccent1">#0D5D98</color>
+
+    <color name="address">#2F7092</color>
+    <color name="followers">#0D5D98</color>
+    <color name="headings">#3797CF</color>
+    <color name="solidCircle">#AAFFFFFF</color>
+    <color name="circleBorder">#50FFFFFF</color>
+    <color name="gradEnd">#67EFC8</color>
+    <color name="gradStart">#63C9FF</color>
+    <color name="followersBg">#65DCE5</color>
+    <color name="followingBg">#49BEFF</color>
+    <color name="grey">#E5E5E5</color>
+
+
+
+
+
+
+</resources>

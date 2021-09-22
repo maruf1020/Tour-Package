@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:padding="10dp"
+        tools:context=".Booking_Confermation"
+        >
+
+
+    <ProgressBar
+
+        android:id="@+id/bar_progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+
+        android:visibility="gone" />
+
+    <!--android:id="@id/progressBar"-->
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fillup Your correct Information"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+
+
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            android:layout_marginTop="5dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_full_name"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="Full Name"
+                android:inputType="text"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@color/colorAccent"
+            android:layout_marginTop="5dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_email"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:ems="10"
+                android:hint="Email (Optional)"
+                android:inputType="text"
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_contract_info"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Mobile Number"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_address"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:ems="10"
+            android:hint="Your Address"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_aditional_info"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:ems="10"
+            android:hint="Addditional Information (Optional)"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </RadioButton>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click here if you want to create account"
+            android:textSize="10dp"
+            android:textAlignment="center"
+            android:padding="20dp"
+            android:textColor="@color/white"
+
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_confirm_user_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_rounded_primary_light_color"
+        android:text="NEXT ->>"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:onClick="btn_g0_to_booking_details"/>
+
+
+    </LinearLayout>
+
+

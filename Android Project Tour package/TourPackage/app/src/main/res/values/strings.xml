@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Tour Package</string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <!--    for facebook login-->
+    <string name="facebook_app_id">2530369047078729</string>
+    <string name="fb_login_protocol_scheme">fb2530369047078729</string>
+
+
+    <!--    for main nav-->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_nav_drawer">NavDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!--    for bottom nav-->
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    <!--    for chatbot-->
+    <string name="hello_world">Hello world!</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+
+
+    <!--    for about us-->
+    <string name="copy_right" translatable="false">Copyrights © Fall2019.CSE327.3.T4</string>
+    <string name="about_us_description">TOUR PACKAGE is a online tour package booking system with some good features, an user could know about several tour packages by chatbot. The owner would n0t be needed to reply the users, rather the system will automatically reply when someone ask something in chatbot. Moreover, one could book a tour package, see the details including google map location of the tour packages, could search for his/her favourite package, and would be able to pay online for the package. User would need to sign up and sign in to do these activities, third party log in system would be available also. This project would be very helpful for those who want to book tour package by sitting at home. He would be able to get the answers with in a second if he has any query. The owner of the TOUR PACKAGE business would get help from this project. He would not need to hire people for replaying client is questions.</string>
+
+    <string name="twitterUsername">\@mdmarufbillah</string>
+
+
+</resources>

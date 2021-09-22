@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Tour Package</title>
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <!-- Our Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Scrollbar Custom CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+  <!-- Font Awesome JS -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+      <div class="sidebar-header">
+        <a href="index.html"><img src="img/logo.png" class="" alt="..."></a>
+      </div>
+
+      <ul class="list-unstyled components">
+        <p>Table of content</p>
+        <li>
+          <a href="#introduction" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> 1. Introduction</a>
+          <ul class="collapse list-unstyled" id="introduction">
+            <li>
+              <a href="introduction.html" class="active">1.1 Purpose </a>
+            </li>
+            <li>
+              <a href="introduction.html">1.2 Document Conventions</a>
+            </li>
+            <li>
+              <a href="introduction.html">1.3 Intended Audience and Reading Suggestions</a>
+            </li>
+            <li>
+              <a href="introduction.html">1.4 Product Scope</a>
+            </li>
+            <li>
+              <a href="introduction.html">1.5 References</a>
+            </li>
+          </ul>
+        </li>
+        <li class="active">
+          <a href="#description" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">2. Overall Description</a>
+          <ul class="collapse list-styled" id="description">
+            <li>
+              <a href="#product">2.1 Product Perspective </a>
+            </li>
+            <li>
+              <a href="#function">2.2 Product Functions</a>
+            </li>
+            <li>
+              <a href="#classes">2.3 User Classes and Characteristics</a>
+            </li>
+            <li>
+              <a href="#Operating">2.4 Operating Environment</a>
+            </li>
+            <li>
+              <a href="#design">2.5 Design and Implementation Constraints</a>
+            </li>
+            <li>
+              <a href="#document">2.6 User Documentation</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#interface" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">3. External Interface Requirements</a>
+          <ul class="collapse list-styled" id="interface">
+            <li>
+              <a href="Requirements.html">3.1 User Interfaces</a>
+            </li>
+            <li>
+              <a href="Requirements.html">3.2 Hardware Interfaces</a>
+            </li>
+            <li>
+              <a href="Requirements.html">3.3 Software Interfaces</a>
+            </li>
+            <li>
+              <a href="Requirements.html">3.4 Communications Interfaces</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#features" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">4. System Features</a>
+          <ul class="collapse list-styled" id="features">
+            <li>
+              <a href="software.html">4.1 Functional Requirement</a>
+            </li>
+            <li>
+              <a href="software.html">4.2 Functional Requirement 2</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#d" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">5.Other Nonfunctional Requirements</a>
+          <ul class="collapse list-styled" id="d">
+            <li>
+              <a href="nonfuntional.html">5.1	 Performance Requirements</a>
+            </li>
+            <li>
+              <a href="nonfuntional.html">5.2	 Safety Requirements</a>
+            </li>
+            <li>
+              <a href="nonfuntional.html">5.3	 Security Requirements</a>
+            </li>
+            <li>
+              <a href="nonfuntional.html">5.4	 Software Quality Attributes</a>
+            </li>
+            <li>
+              <a href="nonfuntional.html">5.5	Business Rules</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="#m" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">6.Other Requirements</a>
+          <ul class="collapse list-styled" id="m">
+            <li>
+              <a href="other.html">Appendix A: Glossary</a>
+            </li>
+            <li>
+              <a href="other.html">Appendix B: Analysis Models</a>
+            </li>
+            <li>
+              <a href="other.html">Appendix C: To Be Determined List</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+    </nav>
+
+    <!-- Page Content  -->
+    <div id="content">
+      <div class="inner-content" id="product">
+        <h2>2.1 Product Perspective</h2>
+        <p>This system will consist of two parts: one android application and one web portal. The mobile application will be used by the tourist who will be able to book a tour package. The web portal will be used by both the tourist and business
+          owner. The tourist can book tour packages and the business owner can upload their tour packages descriptions.
+          The android application needs and version 7.0 or above. The mobile app will be used for booking the tour packages where he/she can chat for knowing the details about the tour, that's mean there will be a chatbot.
+          The mobile application and the web application will both have a database to store product data and user data. The web portal will have read, write and modify access of the database but the mobile app will only have read access. All database
+          communication will happen through internet.
+
+      </div>
+      <div class="inner-content" id="function">
+        <h2>2.2 Product Functions</h2>
+        <div class="inner-content-image">
+          <p>With the mobile application the user will be able to book a tour package. The users will also be able to search for a specific tour package with name or find it from the category menu.The web portal will have two parts, one for the
+            administrator and another one is for the tourist. The tourist will be able to book a tour package from here also. The website and the app will be supported the AI feature. As a result, the web portal will be accessible from any device as
+            it won’t have any hardware constrain. The admins of the portal will be able to add new tour package with details, receive booking and also get analytical data on tour package.
+          </p>
+        </div>
+      </div>
+      <div class="inner-content" id="classes">
+        <h2>2.3 User Classes and Characteristics</h2>
+        <p>There are two types of users of the platform. The tourist and the administrators.The tourist will be able to use the mobile app and the web app. They can use all the features the mobile app provides. The admin can log in into the webpage
+          and will upload the details about the tour package on the web portal. Same for the tourist. They will also sign up or sign in into the web page to see the details about the tour packages. They will have access to the mobile application too.
+        </p>
+      </div>
+      <div class="inner-content" id="Operating">
+        <h2>2.4 Operating Environment</h2>
+        <p>For Android:
+          Operating System: Android 7.0
+          RAM: 1 GB
+        </p>
+      </div>
+      <div class="inner-content" id="design">
+        <h2>2.5 Design and Implementation Constraints</h2>
+        <p>As this an online application, internet connection is a constraint. Internet connection is crucial for the application to fetch data from the database over the internet. Both the web portal and the mobile application will be constrained by
+          the capacity of the database. Since the database is shared between both application it may be forced to queue incoming requests and therefor increase the time it takes to fetch data.
+        </p>
+      </div>
+      <div class="inner-content" id="document">
+        <h2>2.6 User Documentation</h2>
+        <p>The platform is just entering development stage. Once the development is completed and a prototype released user documentation will be provided.
+      </div>
+      <div class="inner-content" id="assumption">
+        <h2>2.7 Assumptions and Dependencies</h2>
+        <p>One assumption for the android application is the application will be used mostly on high-end or latest phones as for a few years as the hardware requirement can only be met on those phones. A good GPS facility will be required for finding
+          the location . Proper browser should be used for the web app and a stable internet connection is required.
+        </p>
+      </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=without AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $("#sidebar").mCustomScrollbar({
+          theme: "minimal"
+        });
+
+        $('#sidebarCollapse').on('click', function() {
+          $('#sidebar, #content').toggleClass('active');
+          $('.collapse.in').toggleClass('in');
+          $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+        });
+      });
+    </script>
+</body>
+
+</html>

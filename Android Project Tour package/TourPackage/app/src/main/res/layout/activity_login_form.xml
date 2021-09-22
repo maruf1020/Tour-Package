@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".Login_form"
+    android:background="@color/colorPrimary">
+
+<!--    <ImageView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="150dp"-->
+<!--        android:src="@drawable/login_icon"-->
+<!--        android:padding="30dp"-->
+<!--        />-->
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_pic"
+        android:layout_width="82dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/profile_name"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/profile_email"
+        android:textColor="@color/white"
+        />
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_email1"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="text"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        app:passwordToggleEnabled="true"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txt_password1"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_rounded"
+        android:text="login"
+        android:textColor="#ffffff"
+        android:textSize="22sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="22sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="btn_signupForm"
+        />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="346dp"
+        android:layout_height="62dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Nodejs log in"
+        android:textSize="10sp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_rounded"
+        android:onClick="btn_notejs_login"
+        android:textAlignment="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        >
+
+    </Button>
+
+
+
+
+</LinearLayout>
